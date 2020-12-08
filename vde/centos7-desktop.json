@@ -1,0 +1,17 @@
+{
+  "_comment": "Build with `packer build -var-file=centos7-desktop.json centos.json`",
+  "vm_name": "VDE-ENV-File",
+  "cpus": "1",
+  "desktop": "true",
+  "disk_size": "25000",
+  "http_directory": "kickstart/centos7-desktop",
+  "iso_checksum": "087a5743dc6fd6706d9b961b8147423ddc029451b938364c760d75440eb7be14",
+ 
+  "iso_name": "CentOS-7-x86_64-DVD-2003.iso",
+  "iso_url": "file:///D:/AWS/Upload/packer-centos-master/packer-centos-master/image/CentOS-7-x86_64-DVD-2003.iso",
+  "memory": "1024",
+  "paralles_guest_os_type": "centos7",
+  "vagrantfile_template": "tpl/vagrantfile-centos7-desktop.tpl",
+  "tcad": "",
+  "pswd": ""
+}
